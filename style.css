@@ -1,0 +1,77 @@
+body{
+	font-family: sans-serif;
+}
+
+
+.logo{
+	height: 49px;
+	float:left;
+}
+
+ul.navbar{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+}
+
+.navbuttons{
+	float: right;
+	display: inline-block;
+	background-color:black;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: .3s;
+	font-size: 17px;
+	border-style: solid;
+	border-color: black;
+	cursor: pointer;
+	border-radius: 8px;
+	margin: 5px;
+	width: 15%;
+
+}
+
+
+.navbuttons:hover{
+	background-color:white;
+	color: black;
+}
+
+.logonav{
+	background-color: white;
+	padding: 20px 0px;
+	border-radius: 4px;
+	background-repeat: repeat-x; 
+}
+#copyright{
+	width: 100%;
+	text-align: center;
+	font-size: 1.25em;
+	font-style: italic ;
+}
+#icons{
+	
+	margin: auto;
+	float: left;
+	display: inline-block;
+	text-shadow: 1px 1px 1px #ccc;
+	font-size: 1.5em;
+	padding: 10px 0px 0px 0px;
+	width: 100%;
+	text-align: center;
+
+}
+
+.linkicon{
+	padding-left: 10px;
+	padding-right: 10px;
+	color:black;
+}
+
+.primary-background{
+	background-image:	url("background.jpg");
+}
