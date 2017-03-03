@@ -74,8 +74,34 @@ ul.navbar{
 
 .primary-background{
 	background-image:	url("background.jpg");
+	padding: 20px 20px 20px 20px;
+	border-radius: 10px;
 }
 
-#abouthead{
-	
+
+#mainabout{
+	border-radius: 4px;
+	background-color: white;
+	padding: 10px 10px 10px 10px;
+	border-width: 5px;
+}
+
+#summarytitle{
+	border-radius: 4px;
+	background-color: white;
+	padding: 10px 10px 10px 10px;
+	border-width: 5px;
+	border-style: solid;
+	width: 35%;
+
+}
+
+#abouttitle{
+	border-radius: 4px;
+	background-color: white;
+	padding: 10px 10px 10px 10px;
+	border-width: 5px;
+	border-style: solid;
+	width: 25%;
+
 }
