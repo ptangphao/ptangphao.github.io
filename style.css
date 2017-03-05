@@ -1,7 +1,8 @@
 body{
 	font-family: sans-serif;
-	padding: 0px 0px 0px 0px;
+	padding: 0px 0% 0% 0%;
 	max-width: 100%;
+	margin: 0;
 }
 
 
@@ -36,6 +37,8 @@ ul.navbar{
 	opacity: 1;
 }
 
+.finalbutton{
+}
 
 .navbuttons:hover{
 	background-color:white;
@@ -78,7 +81,7 @@ ul.navbar{
 
 .primary-background{
 	background-image:	url("background.jpg");
-	padding: 20px 20px 30% 20px;
+	padding: 20px 0px 30% 0px;
 	width: 100%;
 	margin: 0px 0px 0px 0px;
 	max-width: 100%;
@@ -91,6 +94,7 @@ ul.navbar{
 	background-color: white;
 	padding: 0px 5px 0px 5px;
 	border-width: 1px;
+		max-width: 100%;
 }
 /*
 #summarytitle{
@@ -151,9 +155,33 @@ ul.navbar{
 }
 
 #taskreview{
+	font-family: "Lucida Console";
 	float:left;
 	width: 100%;
 	text-align: center;
 	border: 4px black solid;
 	border-radius: 4px;
+}
+
+#analysis{
+	text-align: center;
+}
+
+#taskreview a{
+  	text-decoration: none;
+}
+
+#taskreview a:visited {
+	font-weight: bold;
+  	text-decoration: none;
+  	color: #2a2a2a;
+}
+
+#resources a{
+	font-weight: ;
+}
+#resources a:visited{
+	font-weight: bold;
+	text-decoration: none;
+	color: #2a2a2a;
 }
