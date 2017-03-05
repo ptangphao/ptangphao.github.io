@@ -1,6 +1,7 @@
 body{
 	font-family: sans-serif;
 	padding: 0px 0px 0px 0px;
+	max-width: 100%;
 }
 
 
@@ -49,10 +50,12 @@ ul.navbar{
 	background-repeat: repeat-x; 
 }
 #copyright{
+	float:left;
 	width: 100%;
 	text-align: center;
 	font-size: 1.25em;
 	font-style: italic ;
+	padding: 5% 0% 0% 0%;
 }
 #icons{
 	
@@ -75,9 +78,10 @@ ul.navbar{
 
 .primary-background{
 	background-image:	url("background.jpg");
-	padding: 20px 20px 20px 20px;
+	padding: 20px 20px 30% 20px;
 	width: 100%;
 	margin: 0px 0px 0px 0px;
+	max-width: 100%;
 
 }
 
@@ -88,7 +92,7 @@ ul.navbar{
 	padding: 0px 5px 0px 5px;
 	border-width: 1px;
 }
-
+/*
 #summarytitle{
 	border-radius: 8px;
 	background-color: white;
@@ -98,26 +102,58 @@ ul.navbar{
 	border-width: 1px;
 	width: 60%;
 	font-style: italic;
+	opacity: 0;
 
 }
-
-#summarytitletext{
-
-}
+*/
 
 #abouttitle{
 	border-radius: 8px;
 	background-color: white;
 	padding: 5px 5px 5px 5px;
-	border-width: 1px;
-	border-style: solid;
 	width: 23%;
-	margin: 25% 0px 0px 0px;
+	margin: 3% 0px 0px 0px;
 
 }
 
 #minititle{
 	float:right;
 	color: black;
-	opacity: .8;
+	font-size: 1em;
+}
+
+#pipeline{
+	float: left;
+	display: inline;
+	width: 50%;
+}
+
+#phase3{
+	float: right;
+	display: inline;
+	width: 49%;
+	margin: 0px 0px 0px 0px	;
+
+}
+
+.container{
+	width: 95%;
+    margin: auto;
+    padding: 10px;
+}
+
+#resources{
+	float: right;
+	display: inline;
+	width: 49%;
+	margin: 0px 0px 0px 0px	;
+	font-size: 1.5em;
+}
+
+#taskreview{
+	float:left;
+	width: 100%;
+	text-align: center;
+	border: 4px black solid;
+	border-radius: 4px;
 }
